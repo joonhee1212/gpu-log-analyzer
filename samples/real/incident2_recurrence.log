@@ -1,0 +1,24 @@
+Feb 03 01:48:23 gpu-node-01 /usr/libexec/gdm-x-session[1498]: (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+Feb 03 01:48:29 gpu-node-01 /usr/libexec/gdm-x-session[2144]: (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+Feb 03 01:48:29 gpu-node-01 /usr/libexec/gdm-x-session[2144]: (II) NVIDIA(0):     "DFP-0:nvidia-auto-select"
+Feb 03 01:48:29 gpu-node-01 /usr/libexec/gdm-x-session[2144]: (WW) NVIDIA:     '/var/run/nvidia-xdriver-1fbb57b0' Permission denied
+Feb 03 01:48:29 gpu-node-01 /usr/libexec/gdm-x-session[2144]: (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: GPU at PCI:0000:01:00: GPU-a13e0a3a-e4d7-0a3c-ccf2-29c1f34b9812
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: GPU Board Serial Number: 0
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: Xid (PCI:0000:01:00): 79, GPU has fallen off the bus.
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: GPU 0000:01:00.0: GPU has fallen off the bus.
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: GPU 0000:01:00.0: GPU serial number is 0.
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: krcRcAndNotifyAllChannels_IMPL: RC all channels for critical error 79.
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: GPU0 RPC event history (CPU <- GSP):
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:     entry function                     sequence data0              data1              ts_start           ts_end             duration during_incomplete_rpc
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:      0    4099 POST_EVENT                     0 0x00000000000000a2 0x0000000000000000 0x000649e6ae26d993 0x000649e6ae26d9aa     23us  
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:     -1    4099 POST_EVENT                     0 0x00000000000000a2 0x0000000000000000 0x000649e6adee2f0e 0x000649e6adee2f22     20us  
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:     -2    4099 POST_EVENT                     0 0x00000000000000a2 0x0000000000000000 0x000649e6aca60462 0x000649e6aca60472     16us  
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:     -3    4099 POST_EVENT                     0 0x00000000000000a2 0x0000000000000000 0x000649e6ac789fb0 0x000649e6ac789fcf     31us  
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:     -4    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000000 0x0000000000000000 0x000649e6a9efba8f 0x000649e6a9efba8f           
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:     -5    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000001 0x0000000000000000 0x000649e6a9efa628 0x000649e6a9efa628           
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:     -6    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000000 0x0000000000000000 0x000649e6a9efa519 0x000649e6a9efa519           
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM:     -7    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000001 0x0000000000000000 0x000649e6a9efa13b 0x000649e6a9efa13b           
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: Xid (PCI:0000:01:00): 154, GPU recovery action changed from 0x0 (None) to 0x1 (GPU Reset Required)
+Feb 03 01:53:05 gpu-node-01 kernel: nvidia-modeset: ERROR: GPU:0: Failed to query display engine channel state: 0x0000ca7e:6:0:0x0000000f
+Feb 03 01:53:05 gpu-node-01 kernel: NVRM: GPU0 nvAssertFailedNoLog: Assertion failed: (status == NV_OK) || (status == NV_ERR_GPU_IN_FULLCHIP_RESET) @ rs_client.c:844

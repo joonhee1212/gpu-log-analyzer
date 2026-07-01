@@ -1,0 +1,30 @@
+2026-02-02T14:42:33.861120-06:00 gpu-node-01 kernel: nvidia 0000:01:00.0: [drm] fb0: nvidia-drmdrmfb frame buffer device
+2026-02-02T14:42:51.867964-06:00 gpu-node-01 kernel: NVRM: GPU at PCI:0000:01:00: GPU-a13e0a3a-e4d7-0a3c-ccf2-29c1f34b9812
+2026-02-02T14:42:51.867976-06:00 gpu-node-01 kernel: NVRM: GPU Board Serial Number: 0
+2026-02-02T14:42:51.867977-06:00 gpu-node-01 kernel: NVRM: Xid (PCI:0000:01:00): 79, pid=2361, name=mutter-x11-fram, GPU has fallen off the bus.
+2026-02-02T14:42:51.964215-06:00 gpu-node-01 kernel: NVRM: GPU 0000:01:00.0: GPU has fallen off the bus.
+2026-02-02T14:42:51.964216-06:00 gpu-node-01 kernel: NVRM: GPU 0000:01:00.0: GPU serial number is 0.
+2026-02-02T14:42:51.964217-06:00 gpu-node-01 kernel: NVRM: GPU0 krcRcAndNotifyAllChannels_IMPL: RC all channels for critical error 79.
+2026-02-02T14:42:51.964218-06:00 gpu-node-01 kernel: NVRM: GPU0 _threadNodeCheckTimeout: API_GPU_ATTACHED_SANITY_CHECK failed!
+2026-02-02T14:42:51.964243-06:00 gpu-node-01 kernel: message repeated 13 times: [ NVRM: GPU0 _threadNodeCheckTimeout: API_GPU_ATTACHED_SANITY_CHECK failed!]
+2026-02-02T14:42:52.012771-06:00 gpu-node-01 kernel: NVRM: GPU0 _issueRpcAndWait: rpcSendMessage failed with status 0x0000000f for fn 78 sequence 1762!
+2026-02-02T14:42:52.012778-06:00 gpu-node-01 kernel: NVRM: GPU0 nvCheckOkFailedNoLog: Check failed: GPU lost from the bus [NV_ERR_GPU_IS_LOST] (0x0000000F) returned from nvdEngineDumpCallbackHelper(pGpu, pPrbEnc, pNvDumpState, pEngineCallback) @ nv_debug_dump.c:273
+2026-02-02T14:42:52.012779-06:00 gpu-node-01 kernel: NVRM: GPU0 _issueRpcAndWait: rpcSendMessage failed with status 0x0000000f for fn 78 sequence 1763!
+2026-02-02T14:42:52.012780-06:00 gpu-node-01 kernel: NVRM: GPU0 nvCheckOkFailedNoLog: Check failed: GPU lost from the bus [NV_ERR_GPU_IS_LOST] (0x0000000F) returned from nvdEngineDumpCallbackHelper(pGpu, pPrbEnc, pNvDumpState, pEngineCallback) @ nv_debug_dump.c:273
+2026-02-02T14:42:52.012780-06:00 gpu-node-01 kernel: NVRM: GPU0 _issueRpcAndWait: rpcSendMessage failed with status 0x0000000f for fn 78 sequence 1764!
+2026-02-02T14:42:52.012781-06:00 gpu-node-01 kernel: NVRM: GPU0 nvCheckOkFailedNoLog: Check failed: GPU lost from the bus [NV_ERR_GPU_IS_LOST] (0x0000000F) returned from nvdEngineDumpCallbackHelper(pGpu, pPrbEnc, pNvDumpState, pEngineCallback) @ nv_debug_dump.c:273
+2026-02-02T14:42:52.012782-06:00 gpu-node-01 kernel: NVRM: GPU0 _issueRpcAndWait: rpcSendMessage failed with status 0x0000000f for fn 78 sequence 1765!
+2026-02-02T14:42:52.012782-06:00 gpu-node-01 kernel: NVRM: GPU0 nvCheckOkFailedNoLog: Check failed: GPU lost from the bus [NV_ERR_GPU_IS_LOST] (0x0000000F) returned from nvdEngineDumpCallbackHelper(pGpu, pPrbEnc, pNvDumpState, pEngineCallback) @ nv_debug_dump.c:273
+2026-02-02T14:42:52.012828-06:00 gpu-node-01 kernel: NVRM:     entry function                     sequence data0              data1              ts_start           ts_end             duration during_incomplete_rpc
+2026-02-02T14:42:52.012828-06:00 gpu-node-01 kernel: NVRM:      0    4099 POST_EVENT                     0 0x00000000000000a2 0x0000000000000000 0x000649dd5d9881fc 0x000649dd5d988210     20us  
+2026-02-02T14:42:52.012829-06:00 gpu-node-01 kernel: NVRM:     -1    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000000 0x0000000000000000 0x000649dd5cc9224e 0x000649dd5cc9224e           
+2026-02-02T14:42:52.012829-06:00 gpu-node-01 kernel: NVRM:     -2    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000001 0x0000000000000000 0x000649dd5cc90df6 0x000649dd5cc90df6           
+2026-02-02T14:42:52.012829-06:00 gpu-node-01 kernel: NVRM:     -3    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000000 0x0000000000000000 0x000649dd5cc90cd3 0x000649dd5cc90cd3           
+2026-02-02T14:42:52.012830-06:00 gpu-node-01 kernel: NVRM:     -4    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000001 0x0000000000000000 0x000649dd5cc908f7 0x000649dd5cc908f7           
+2026-02-02T14:42:52.012830-06:00 gpu-node-01 kernel: NVRM:     -5    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000000 0x0000000000000000 0x000649dd5cc7bc11 0x000649dd5cc7bc12      1us  
+2026-02-02T14:42:52.012830-06:00 gpu-node-01 kernel: NVRM:     -6    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000001 0x0000000000000000 0x000649dd5cc7bb85 0x000649dd5cc7bb85           
+2026-02-02T14:42:52.012831-06:00 gpu-node-01 kernel: NVRM:     -7    4124 GSP_LOCKDOWN_NOTICE            0 0x0000000000000000 0x0000000000000000 0x000649dd5cc7ac55 0x000649dd5cc7ac55           
+2026-02-02T14:42:52.018094-06:00 gpu-node-01 kernel: nvidia-modeset: ERROR: GPU:0: Failed to query display engine channel state: 0x0000ca7e:6:0:0x0000000f
+2026-02-02T14:42:52.018095-06:00 gpu-node-01 kernel: NVRM: Xid (PCI:0000:01:00): 154, GPU recovery action changed from 0x0 (None) to 0x1 (GPU Reset Required)
+2026-02-02T14:42:52.114328-06:00 gpu-node-01 kernel: NVRM: GPU0 nvAssertFailedNoLog: Assertion failed: (status == NV_OK) || (status == NV_ERR_GPU_IN_FULLCHIP_RESET) @ rs_client.c:844
+2026-02-02T14:42:52.114330-06:00 gpu-node-01 kernel: NVRM: nvAssertFailedNoLog: Assertion failed: (status == NV_OK) || (status == NV_ERR_GPU_IN_FULLCHIP_RESET) @ rs_server.c:259
