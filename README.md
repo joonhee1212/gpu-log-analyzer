@@ -22,7 +22,7 @@ Built on real `nvidia-bug-report.log` samples from a recurring Xid 79 ("GPU has 
 Requires Python 3.9+, no third-party dependencies.
 
 ```bash
-git clone https://github.com/joonleesky/gpu-log-analyzer.git
+git clone https://github.com/joonhee1212/gpu-log-analyzer.git
 cd gpu-log-analyzer
 pip install -e .
 ```
